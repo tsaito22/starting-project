@@ -7,11 +7,13 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-scene class="fullscreen" canvas="">
+      <a-box position="-1 2.917 5.155" rotation="0 45 0" color="#4CC3D9" scale="2.519 5.12 3.231" material="color:#caa267"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" scale="0.671 0.671 0.671"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane rotation="-90 0 0" width="4" height="4" color="#7BC8A4" scale="5.93 5.93 5.93" material="color:#b7b9b6"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
+    <a-entity camera="fov:50;near:0.05"></a-entity></a-scene>
     </a-scene>
   </body>
 </html>
